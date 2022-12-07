@@ -189,15 +189,15 @@ ul {
   margin-top: 10px;
   margin-bottom: 0px;
 }
+
 .solutions-icon {
+  background-color: var(--alt-white);
+  border-radius: 4px;
   width: 270px;
   height: 120px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  background-color: var(--alt-white);
+  padding: 25px 100px;
 }
+
 
 /* OUR JOB */
 
@@ -294,10 +294,6 @@ ul {
   background: #2196f3;
   fill: #fff;
 }
-.team-icon {
-  width: 20px;
-  height: 20px;
-}
 
 /* END TEAM */
 
@@ -313,20 +309,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 92px;
+  padding: 17.71px 32px 14.25px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   text-decoration: none;
   fill: #afb1b8;
   cursor: pointer;
 }
-.clients-icon {
-  display: flex;
-  align-items: center;
-  width: 106px;
-  height: 60px;
-}
+
 
 .clients-icon-element:hover,
 .clients-icon-element:focus {
@@ -365,10 +355,7 @@ ul {
   fill: #fff;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-socials-icon {
-  width: 20px;
-  height: 20px;
-}
+
 .footer-socials-element:hover {
   background-color: var(--light-blue-color);
 }
