@@ -404,7 +404,9 @@ ul {
   text-decoration: none;
 }
 .link-map:hover,
-.link-map:focus {
+.link-map:focus,
+.link-phone-mail:hover,
+.link-phone-mail:focus {
   color: var(--light-blue-color);
 }
 /* END FOOTER */
