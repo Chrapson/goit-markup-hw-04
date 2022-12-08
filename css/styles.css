@@ -117,13 +117,17 @@ ul {
 /* INDEX MAIN */
 
 .main-background {
-  background: #2f303a;
-  background-image: linear-gradient(
+  }
+  .bg{
+    background: #2f303a;
+    background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/hero.jpg");
+    width: 1600px;
   background-size: cover;
+  
 }
 .main-background .container {
   display: flex;
