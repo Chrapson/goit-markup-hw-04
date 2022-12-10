@@ -117,17 +117,17 @@ ul {
 /* INDEX MAIN */
 
 .main-background {
-  }
-  .bg{
-    background: #2f303a;
-    background-image: linear-gradient(
+  background: #2f303a;
+}
+.hero-bg-img {
+  background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/hero.jpg");
-    width: 1600px;
+  width: 1600px;
   background-size: cover;
-  
+  padding: 0;
 }
 .main-background .container {
   display: flex;
@@ -201,7 +201,6 @@ ul {
   height: 120px;
   padding: 25px 100px;
 }
-
 
 /* OUR JOB */
 
@@ -320,7 +319,6 @@ ul {
   fill: #afb1b8;
   cursor: pointer;
 }
-
 
 .clients-icon-element:hover,
 .clients-icon-element:focus {
